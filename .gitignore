@@ -1,0 +1,24 @@
+# Simulation output
+*_sim
+*.vcd
+*.fst
+*.vvp
+
+# Synthesis output
+synth_report.txt
+*_gates.v
+
+# Verilator build
+obj_dir/
+
+# Python / cocotb
+__pycache__/
+*.pyc
+sim_build/
+results.xml
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
